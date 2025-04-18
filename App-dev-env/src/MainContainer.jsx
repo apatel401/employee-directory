@@ -11,7 +11,7 @@ const MainContainer = () => {
   // const [selectedDepartment, setSelectedDepartment] = useState("Department");
   const [selectedCompany, setSelectedCompany] = useState("Company");
   const [selectedEmployee, setSelectedEmployee] = useState(null); // To track selected employee for modal
-  const [viewMode, setViewMode] = useState("card"); // 'card' or 'list'
+  const [viewMode, setViewMode] = useState("list"); // 'card' or 'list'
   const SPREADSHEET_ID = "1OROV9Nm9XJjlXbxbEyOVES47gyc9CN4p18FbXmSI_uM";
   const RANGE = "all-employees";
   const API_KEY = "AIzaSyB_PZvCeMLoTITwAFvEcrb2wt_kyloHgP4";
